@@ -24,7 +24,7 @@ class Profil extends React.Component {
   
      
           <div className="container mt-4 mb-4 p-3 d-flex justify-content-center">
-            <h1>{this.state.count}</h1>
+            
             <div className="card p-4">
               <div className=" image d-flex flex-column justify-content-center align-items-center">
                 <img  src={this.state.imgSrc} alt='logo' height={100}  />
@@ -58,6 +58,7 @@ class Profil extends React.Component {
                 <div className=" px-2 rounded mt-4 date ">
                   <span className="join">Joined December,2022</span>
                 </div>
+                <p>interval time: {this.state.count}</p>
               </div>
             </div>
           </div>
